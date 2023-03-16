@@ -1,0 +1,179 @@
+
+html, body{
+    color : white;
+    font-family: 'Satoshi', sans-serif;
+}
+
+/* MAIN PAGE */
+
+
+.background {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    background-color: #0c0018;
+    z-index: -1;
+  }
+
+.img_container{
+    position: relative;
+}
+
+
+.img1{
+    width: 100%;
+}
+
+
+.bts{
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 5px;
+    height: 65px;
+}
+
+.navbar.active{
+    background-color: black;
+}
+
+.navbar_container{
+    display : flex;
+    color: white;
+}
+
+.navbar_container>div{
+    padding: 10px;
+    font-size: 1.4rem;
+}
+.navbar_container>div:hover{
+    border-bottom: 1px solid white;
+    height: 26px;
+}
+
+
+.contact{
+    padding: 10px;
+    color : white;
+    margin-left: 100px;
+    border: 1px solid white;
+    font-size: 1.4rem;
+    border-radius: 5px;
+}
+.contact:hover{
+    background: linear-gradient(#290047, #9198e5);
+
+}
+
+.portfolio{
+    padding: 10px;
+    color : white;
+    margin-right: 100px;
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT PAGE */
+
+.contacte{
+    display : flex;
+    border: 1px solid white;
+    padding: 10px;
+    justify-content: center;
+    height: 300px;
+}
+
+.contacte>div{
+    padding: 10px;
+}
+
+
+.contacte_conatainer{
+    display : flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.contacte_container1{
+    display : flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.message{
+   margin: 10px;
+   padding: 10px;
+   font-size: 1.3rem;
+}
+
+
+.mail{
+   margin: 10px;
+   font-size: 1.3rem;
+right: 10px;
+
+}
+
+
+
+.submit{
+    color : white;
+    margin-left: 100px;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background: transparent;
+}
+.submit:hover{
+    background: linear-gradient(#290047, #9198e5);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* PROJET SECTION */
+
+.cerise>div>div{
+    padding: 20px;
+    display : flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+   
+}
